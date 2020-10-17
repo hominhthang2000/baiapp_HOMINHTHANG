@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/profile"
+    android:title="@string/menu_profile"
+    android:icon="@drawable/profile1"
+    >
+</item>
+    <item
+        android:id="@+id/sothich"
+        android:title="@string/menu_favourite"
+        android:icon="@drawable/like"
+        >
+    </item>
+</menu>

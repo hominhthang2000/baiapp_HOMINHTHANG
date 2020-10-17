@@ -1,0 +1,77 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/grad"
+    android:gravity="center"
+    android:id="@+id/login1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circle"
+        android:padding="3dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#E17D7D"
+        android:textSize="40sp"
+        android:gravity="center">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextuser"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:hint="Nhập tên người dùng">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextpass"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:hint="Mật khẩu">
+    </EditText>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#E6C12A2A"
+            android:layout_marginRight="50dp"
+            android:id="@+id/btndangnhap"
+            android:background="@color/followingBg"
+            android:textSize="20sp">
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:id="@+id/btndangky"
+
+            android:textColor="#E6C12A2A"
+            android:background="@color/followingBg"
+            android:textSize="20sp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
